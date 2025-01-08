@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cosmic-sdk"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
     { name="Charles Javelona", email="charlesjavelona@gmail.com" },
 ]
@@ -27,4 +27,4 @@ dependencies = [
 "Bug Tracker" = "https://github.com/deepkalilabs/cosmic-sdk/issues"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/cosmic/connectors"]
+packages = ["src/cosmic/"]
